@@ -6,8 +6,9 @@
 <p align="center">Made with in Swift 3+, no dependencies, lightweight & fully portable
 <p/>
 <p align="center" >★★ <b>Star our github repository to help me!</b> ★★</p>
-<p align="center" ><b>Everyweek new part publishes on [Medium](https://medium.com/@duruldalkanat/code-challenge-for-ios-interview-817c139891e4)</b></p>
 <p align="center" >Created by <a href="http://www.twitter.com/duruldalkanat">@duruldalkanat</a></p>
+
+Everyweek new part publishes on [Medium](https://medium.com/@duruldalkanat/code-challenge-for-ios-interview-817c139891e4)
 
 ## Contents
 
