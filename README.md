@@ -28,7 +28,8 @@ Everyweek new part publishes on [Medium](https://medium.com/@duruldalkanat/code-
 - Part 11: Test Driven Development
 - Part 12: Build Offline mode
 - Part 13: Widget
-- Part 14: ...
+- Part 13: Widget & 3D Widget
+- Part 14: Jazzy
 
 ## Requirements
 * Swift 3.0+

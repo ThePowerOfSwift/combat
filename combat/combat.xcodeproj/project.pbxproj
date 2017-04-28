@@ -14,6 +14,7 @@
 		2E3045A71EAE8933005A287D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3045A51EAE8933005A287D /* LaunchScreen.storyboard */; };
 		2E3045B21EAE8933005A287D /* combatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3045B11EAE8933005A287D /* combatTests.swift */; };
 		2E3045BD1EAE8933005A287D /* combatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3045BC1EAE8933005A287D /* combatUITests.swift */; };
+		2E34C73A1EB3CC1900BAB542 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E34C7391EB3CC1900BAB542 /* ThemeManager.swift */; };
 		FB83882A277D520BA3382A9D /* Pods_combat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443F6EF8836EB763FD996E20 /* Pods_combat.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		2E3045B81EAE8933005A287D /* combatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = combatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E3045BC1EAE8933005A287D /* combatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combatUITests.swift; sourceTree = "<group>"; };
 		2E3045BE1EAE8933005A287D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E34C7391EB3CC1900BAB542 /* ThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
 		2FF724A396CBA783FB25B4FB /* Pods-combat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-combat.release.xcconfig"; path = "Pods/Target Support Files/Pods-combat/Pods-combat.release.xcconfig"; sourceTree = "<group>"; };
 		443F6EF8836EB763FD996E20 /* Pods_combat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_combat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB987F4C2927E2A73B79AC7 /* Pods-combat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-combat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-combat/Pods-combat.debug.xcconfig"; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		2E30459B1EAE8933005A287D /* combat */ = {
 			isa = PBXGroup;
 			children = (
+				2E34C7381EB3CBD600BAB542 /* Theme */,
 				2EE336681EAF7FF60061987A /* Model */,
 				2EE336691EAF7FFB0061987A /* View */,
 				2EE3366A1EAF80020061987A /* Controller */,
@@ -140,6 +143,14 @@
 				2E3045BE1EAE8933005A287D /* Info.plist */,
 			);
 			path = combatUITests;
+			sourceTree = "<group>";
+		};
+		2E34C7381EB3CBD600BAB542 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				2E34C7391EB3CC1900BAB542 /* ThemeManager.swift */,
+			);
+			name = Theme;
 			sourceTree = "<group>";
 		};
 		2EE336681EAF7FF60061987A /* Model */ = {
@@ -363,6 +374,7 @@
 			files = (
 				2E30459F1EAE8933005A287D /* ViewController.swift in Sources */,
 				2E30459D1EAE8933005A287D /* AppDelegate.swift in Sources */,
+				2E34C73A1EB3CC1900BAB542 /* ThemeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

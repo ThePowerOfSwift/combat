@@ -1,26 +1,30 @@
 //
 //  ViewController.swift
 //  combat
-//
-//  Created by durul dalkanat on 4/24/17.
-//  Copyright © 2017 durul dalkanat. All rights reserved.
-//
 
 import UIKit
 import Alamofire
 
 class ViewController: UIViewController {
 
+    let theme = ThemeManager.currentTheme()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = theme.backgroundColor
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        // TEST
 
+        // END TEST
 
+    }
 }
 
