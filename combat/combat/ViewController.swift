@@ -4,11 +4,16 @@
 
 import UIKit
 import Alamofire
+import SwiftyBeaver
 
+    //MARK: - UIViewController Properties
 class ViewController: UIViewController {
 
+    //MARK: - Properties
     let theme = ThemeManager.currentTheme()
+    let log = SwiftyBeaver.self
 
+    //MARK: - Super Methods
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = theme.backgroundColor
@@ -16,7 +21,7 @@ class ViewController: UIViewController {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        self.log.warning("MemoryWarning")
     }
     
     override func viewDidAppear(_ animated: Bool) {
