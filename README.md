@@ -5,7 +5,7 @@
 
 <p align="center">Made with in Swift 3+, no dependencies, lightweight & fully portable
 <p/>
-<p align="center" >★★ <b>Star our github repository to help me!</b> ★★</p>
+<p align="center" >★★ <b>Star my github repository to help me!</b> ★★</p>
 <p align="center" >Created by <a href="http://www.twitter.com/duruldalkanat">@duruldalkanat</a></p>
 
 
