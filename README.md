@@ -17,7 +17,7 @@ Everyweek new part publishes on [Medium](https://medium.com/@duruldalkanat/code-
 
 - Part 1: Installing CocoaPods, third-party libraries and starting a project ✅
 - Part 2: Installing Theme Manager ✅
-- Part 3: Installing Custom Log Manager
+- Part 3: Installing Custom Log Manager ✅
 - Part 4: Design Pattern and MVC
 - Part 5: APIManager implementation
 - Part 6: Enum and Custom Error Manager
